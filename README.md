@@ -8,8 +8,8 @@ The application focuses on responsive UI implementation, reusable component arch
 
 ## Live Demo
 
-- Live URL: [ Add deployed link here ]
-- Video Walkthrough: [ Add video link here ]
+- Live URL: https://hintro-assignment-eta.vercel.app/
+- Video Walkthrough: https://youtu.be/8qmwcjbEJVs
 
 ---
 
@@ -145,8 +145,8 @@ Reusable utility functions are used for formatting durations, timestamps, and re
 ### 1. Clone Repository
 
 ```bash
-git clone [ repository-url ]
-cd [ project-folder ]
+git clone https://github.com/Harshil000/HintroAssignment
+cd HINTRO
 ```
 
 ### 2. Install Dependencies
@@ -259,40 +259,28 @@ Examples:
 
 ---
 
-## Future Improvements
-
-- Add automated testing using Vitest and React Testing Library
-- Add accessibility improvements and keyboard navigation enhancements
-- Introduce route-level lazy loading and code splitting
-- Improve animation and transition systems
-- Add toast notifications for feedback and async actions
-- Move API configuration to environment variables
-- Add CI/CD workflows for automated linting and build checks
-
----
-
 ## Deployment
 
-- Live URL: [ Add deployed URL here ]
+- Live URL: https://hintro-assignment-eta.vercel.app/
 
 ---
 
 ## Screenshots
 
 ### Desktop Dashboard
-[ Add screenshot here ]
+![Desktop dashboard for active user (u2)](./screenshot/DesktopScreenShot.png)
 
 ### Mobile Dashboard
-[ Add screenshot here ]
+![Mobile dashboard view](./screenshot/mobile.jpg)
 
 ### Empty State (u1)
-[ Add screenshot here ]
+![Empty state dashboard for user (u1)](./screenshot/U1%20screenshot.png)
 
 ### Populated State (u2)
-[ Add screenshot here ]
+![Populated dashboard state for user (u2)](./screenshot/DesktopScreenShot.png)
 
 ### Feedback Flow
-[ Add screenshot here ]
+![Feedback page](./screenshot/FeedbackPage.png)
 
 ---
 
