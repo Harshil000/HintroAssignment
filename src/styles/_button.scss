@@ -1,0 +1,23 @@
+@mixin button-base(
+    $padding: 0.5rem 0.75rem,
+    $font-size: 0.875rem,
+    $bg: transparent,
+    $border-color: black,
+    $radius: var(--radius-xs),
+    $gap: 0.5rem
+) {
+    display: inline-flex;
+    align-items: center;
+    gap: $gap;
+    padding: $padding;
+    background: $bg;
+    font-size: $font-size;
+    border: 1px solid $border-color;
+    border-radius: $radius;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+@mixin button-ghost($padding: 0.5rem 0.75rem, $font-size: 0.875rem, $border-color: black) {
+    @include button-base($padding, $font-size, transparent, $border-color);
+}

@@ -1,0 +1,36 @@
+.call_history_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+
+    .call_history_content {
+        width: 95%;
+        flex: 1;
+        max-height: 45vh;
+        overflow-y: scroll;
+        scrollbar-width: thin;
+        scrollbar-color: var(--scroll-thumb) transparent;
+    }
+}
+
+@media (max-width: 1024px) {
+    .call_history_section {
+        gap: 0.75rem;
+
+        .call_history_content {
+            width: 100%;
+            max-height: 38vh;
+        }
+    }
+}
+
+@media (max-width : 900px) {
+    .call_history_section {
+
+        .call_history_content {
+            max-height: none;
+            overflow-y: visible;
+        }
+    }
+}

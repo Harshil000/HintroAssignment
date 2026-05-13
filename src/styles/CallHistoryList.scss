@@ -1,0 +1,9 @@
+.call_history_date_group {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    .call_history_date_header {
+        color: var(--text-secondary);
+    }
+}

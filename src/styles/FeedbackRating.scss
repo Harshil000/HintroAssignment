@@ -1,0 +1,65 @@
+.rating-field {
+    .rating-stars {
+        display: flex;
+        gap: 0.75rem;
+        align-items: center;
+    }
+
+    .star-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.25rem;
+        border: 0;
+        background: none;
+        color: #ddd;
+        cursor: pointer;
+        transition:
+            color 0.2s ease,
+            transform 0.2s ease;
+
+        &:hover {
+            transform: scale(1.15);
+        }
+
+        &.active {
+            color: #ffc107;
+        }
+
+        &:focus-visible {
+            outline: 2px solid var(--brand-primary);
+            border-radius: 0.25rem;
+        }
+    }
+
+    .rating-text {
+        margin-top: 0.5rem;
+        font-size: 0.9rem;
+        color: var(--text-secondary);
+    }
+}
+
+@media (max-width: 1024px) {
+    .rating-field {
+        .rating-stars {
+            gap: 0.65rem;
+        }
+
+        .star-btn {
+            padding: 0.2rem;
+
+            &:hover {
+                transform: scale(1.12);
+            }
+
+            svg {
+                width: 24px;
+                height: 24px;
+            }
+        }
+
+        .rating-text {
+            font-size: 0.86rem;
+        }
+    }
+}
